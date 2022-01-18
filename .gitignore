@@ -20,3 +20,4 @@ coverage/
 yarn-debug.log*
 yarn-error.log*
 src/components/__snapshots__/
+web-ext-artifacts

@@ -6,7 +6,7 @@ let htmlWebpackPlugin = require('html-webpack-plugin'),
 
 // generates the manifest file using the package.json informations
 manifest.description = process.env.npm_package_description;
-manifest.version = process.env.npm_package_version;
+manifest.version = process.env.npm_package_version || 'dev';
 
 // clean de dist folder
 fsExtra.emptyDirSync(path.join(__dirname, '../build'));
